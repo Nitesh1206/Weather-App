@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httdiv-equiv="X-UA-Comdivatible" content="IE=edge">
+    <meta name="viewdivort" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="current-info">
+            <div class="date-container">
+                <div class="time" id="time">
+                    12:00 <span id="am-pm">AM</span>
+                </div>
+
+                <div class="date" id="date">
+                    Friday 27 February
+                </div>
+
+                <div class="other" id="current-weather">
+                   
+                </div>
+            </div>
+
+            <div class="search">
+                <label for="Location">
+                    <input type="text" placeholder="Enter the Location" id="location">
+                </label>
+            </div>
+
+            <div class="location-container">
+                <div class="time-zone" id="time-zone">Asia/Kolkata</div>
+                <div class="country" id="country">IN</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="future-forcast">
+        <div class="today" id="current-temp">
+            <img src="/images/cloudy-day.png" alt="Weather Image" class="icon">
+            <div class="others">
+                <div class="day">Monday</div>
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+        </div>
+
+        <div class="weather-forcast" id="weather-forcast">
+            <div class="weather-forcast-item">
+                <div class="day">Tue</div>
+                <img src="/images/cloudy-day.png" alt="Weather Image" class="icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forcast-item">
+                <div class="day">Wed</div>
+                <img src="/images/cloudy-day.png" alt="Weather Image" class="icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forcast-item">
+                <div class="day">Thu</div>
+                <img src="/images/cloudy-day.png" alt="Weather Image" class="icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forcast-item">
+                <div class="day">Fri</div>
+                <img src="/images/cloudy-day.png" alt="Weather Image" class="icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+            <div class="weather-forcast-item">
+                <div class="day">Sat</div>
+                <img src="/images/cloudy-day.png" alt="Weather Image" class="icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 35.6&#176; C</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
